@@ -52,7 +52,7 @@ a{
     display: block;
     text-align: center;
     padding-top: 8vh;
-    font-size: 5.5vh;
+    font-size: 35px;
     line-height: 5.5vh;
 }
 .content-2{
@@ -93,7 +93,7 @@ a{
     display: flex;
     align-items: center;
     margin-top: -2vh;
-    font-size: 3.2vh;
+    font-size: 20px;
     width: 100%;
 }
 .website{
@@ -114,7 +114,7 @@ a{
 }
 .menu li{
     margin-right: 13px;
-    font-size: 3.1vh;
+    font-size: 22px;
     overflow: hidden;
     list-style: none;
 }
@@ -124,7 +124,7 @@ a{
 }
 .about-heading{
     text-align: center;
-    font-size: 4vh;
+    font-size: 27px;
     padding-top: 10vh;
 }
 .about-heading h2{
@@ -135,7 +135,7 @@ a{
     color: rgba(135,135,135, 0.8);
 }
 .about-company{
-    font-family: Forte;
+    font-family: Forte, Arial;
     margin-bottom: -8px;
 }
 .about-des{
@@ -239,7 +239,7 @@ a{
     position: relative;
 }
 .form h3{
-    font-size: 4vh;
+    font-size: 25px;
     font-family: Magneto, Arial;
 }
 .form-input{
@@ -304,11 +304,17 @@ input{
     .read{
         display: none;
     }
+    .about-heading h2{
+        margin-bottom: 0;
+    }
 }
 @media only screen and (min-width: 1100px) {
     .nav-bar{
-        padding-top: 1vh;
+        padding-top: 2vh;
         flex-direction: row;
+    }
+    .name{
+        font-size: 25px;
     }
     .dropdown{
         display: none;
@@ -320,6 +326,7 @@ input{
     }
     .menu-bar li{
         padding-right: 15px;
+        font-size: 27px;
     }
     .website{
         margin-right: 100px;
@@ -353,11 +360,16 @@ input{
         width: 40vw;
     }
     .line{
-        border-radius: 6px;
         margin-top: 5vh;
         max-width: 450px;
     }
+    .line span{
+        visibility: hidden;
+    }
     .quote-content p{
         padding: 12px 0;
+    }
+    .form h3{
+        font-size: 28px;
     }
 }
