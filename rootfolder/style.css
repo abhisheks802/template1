@@ -25,6 +25,9 @@ a{
     -ms-filter: blur(4px);
     -webkit-filter: blur(4px);
 }
+#about-register{
+    padding-bottom: 2vh;
+}
 .content{
     z-index: 2;
     transform: translate(-50%, -50%);
