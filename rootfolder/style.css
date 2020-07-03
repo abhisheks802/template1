@@ -128,11 +128,7 @@ a{
     padding-top: 10vh;
 }
 .about-heading h2{
-    margin-bottom: -4vh;
-}
-.about-heading:after{
-    content: "______";
-    color: rgba(135,135,135, 0.8);
+    margin-bottom: -1.7vh;
 }
 .about-company{
     font-family: Forte, Arial;
@@ -306,6 +302,9 @@ input{
     }
     .about-heading h2{
         margin-bottom: 0;
+    }
+    .nav-bar{
+        padding-top: 1vh;
     }
 }
 @media only screen and (min-width: 1100px) {
