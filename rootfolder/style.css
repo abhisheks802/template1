@@ -25,9 +25,6 @@ a{
     -ms-filter: blur(4px);
     -webkit-filter: blur(4px);
 }
-#about-register{
-    padding-bottom: 2vh;
-}
 .content{
     z-index: 2;
     transform: translate(-50%, -50%);
@@ -114,6 +111,9 @@ a{
     display: flex;
     margin-top: -2vh;
     margin-left: -2vh;
+}
+#about-register{
+    padding-bottom: 2vh;
 }
 .menu li{
     margin-right: 13px;
@@ -343,9 +343,7 @@ input{
         flex-direction: row;
         align-items: center;
         margin: 16vh 10px 0 10px;
-        text-align: center;
         width: 80vw;
-        padding-left: 18vh;
     }
     .about span{
         display: initial;
@@ -354,9 +352,12 @@ input{
         display: none;
     }
     .paragraph{
-        padding-left: 5vh;
         width: 40vw;
         overflow: hidden;
+        margin: 0 auto 0 0;
+    }
+    .about-img{
+        margin: 0 auto;
     }
     .about-img img{
         width: 40vw;
